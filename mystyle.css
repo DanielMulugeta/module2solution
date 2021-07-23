@@ -1,0 +1,54 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+}
+.subtitle {
+  border: 1px solid black;
+  width: 100px;
+  float: right;
+}
+.subtitle1 {
+  background-color: darksalmon;
+}
+.subtitle2 {
+  background-color: orangered;
+}
+.subtitle3 {
+  background-color: peachpuff;
+}
+.menu {
+  border: 1px solid black;
+  width: 32.8%;
+  background-color: darkgray;
+  float: left;
+  height: 200px;
+  margin-right: 1px;
+}
+.divbody {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu {
+    width: 49%;
+  }
+  .push-right {
+    margin-right: 10px;
+  }
+  .mobile {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .menu {
+    width: 100%;
+  }
+}
