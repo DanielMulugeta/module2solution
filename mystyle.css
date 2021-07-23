@@ -1,8 +1,6 @@
-body {
+* {
   padding: 0px;
   margin: 0px;
-}
-* {
   box-sizing: border-box;
 }
 .title {
@@ -13,6 +11,7 @@ body {
   border: 1px solid black;
   width: 100px;
   float: right;
+  text-align: center;
 }
 .subtitle1 {
   background-color: darksalmon;
@@ -29,7 +28,7 @@ body {
   background-color: darkgray;
   float: left;
   height: 200px;
-  margin-right: 1px;
+  margin: 1px;
 }
 .divbody {
   margin-top: 30px;
@@ -50,5 +49,8 @@ body {
 @media (max-width: 767px) {
   .menu {
     width: 100%;
+  }
+  .push-down {
+    margin-bottom: 10px;
   }
 }
